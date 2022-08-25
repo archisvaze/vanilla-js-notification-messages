@@ -35,6 +35,8 @@ body {
 }
 
 .alert {
+    height: 60px;
+    width: 350px;
     position: fixed;
     top: -20vh;
     padding: 20px;
