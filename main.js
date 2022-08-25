@@ -55,7 +55,10 @@ errorAlert.addEventListener('mouseover', (e) => {
 })
 errorAlert.addEventListener('mouseleave', (e) => {
     errorFlag = false;
-    errorAlert.classList.remove("show")
+    setTimeout(() => {
+        errorAlert.classList.remove("show")
+    }, 1000)
+
 })
 //warningAlert mouse over and leave handler
 warningAlert.addEventListener('mouseover', (e) => {
@@ -63,7 +66,10 @@ warningAlert.addEventListener('mouseover', (e) => {
 })
 warningAlert.addEventListener('mouseleave', (e) => {
     warningFlag = false;
-    warningAlert.classList.remove("show")
+    setTimeout(() => {
+        warningAlert.classList.remove("show")
+    }, 1000)
+
 })
 //infoAlert mouse over and leave handler
 infoAlert.addEventListener('mouseover', (e) => {
@@ -71,7 +77,10 @@ infoAlert.addEventListener('mouseover', (e) => {
 })
 infoAlert.addEventListener('mouseleave', (e) => {
     infoFlag = false;
-    infoAlert.classList.remove("show")
+    setTimeout(() => {
+        infoAlert.classList.remove("show")
+    }, 1000)
+
 })
 //successAlert mouse over and leave handler
 successAlert.addEventListener('mouseover', (e) => {
@@ -79,5 +88,8 @@ successAlert.addEventListener('mouseover', (e) => {
 })
 successAlert.addEventListener('mouseleave', (e) => {
     succesFlag = false;
-    successAlert.classList.remove("show")
+    setTimeout(() => {
+        successAlert.classList.remove("show")
+    }, 1000)
+
 })
